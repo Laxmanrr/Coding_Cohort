@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.072);;
+}
+
+/* nav  */
+
+#nav h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+
+#nav pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: 50px;
+    background-color:rgb(0, 174, 255);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    padding: 10px;
+}
+
+.hr1{
+    margin: 1% 0;
+}
+
+#nav pre b {
+    color: black;
+}
+
+/* First */
+
+#First {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#First h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+}
+
+.hr2{
+    margin: 1% 0;
+    border-top: 2px dotted grey;
+}
+
+#First p {
+    background-color: white;
+    padding: 10px;
+}
+
+#First img {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 41%;
+}
+
+#First h3 {
+    background-color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+}
+
+#First ul{
+    background-color: white;
+    margin: 10px;
+}
+
+#First ul li{
+    background-color: white;
+    margin: 10px;
+}
+
+#First .hr3{
+    margin: 2% 0;
+    background-color: white;
+}
+
+/* Second */
+
+#Second {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#Second h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+}
+
+#Second p {
+    background-color: white;
+    padding: 10px;
+}
+
+#Second ul {
+    background-color: white;
+    margin: 10px;
+}
+
+#Second ol {
+    background-color: white;
+    margin: 10px;
+}
+
+#Second li {
+    background-color: white;
+    margin: 10px;
+}
+
+.hr {
+    padding: 10px;
+}
+
+#footer {
+    background-color: rgb(33, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 70px;
+    margin-bottom:20px ;
+}
