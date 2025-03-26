@@ -16,62 +16,62 @@ html {
 }
 
 main {
+  padding: 2rem 1.6rem;
   width: 100%;
   color: wheat;
 }
-
-.view-1 {
+main .view-1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 4rem;
 }
-.view-1 img {
+main .view-1 img {
   width: 80%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.view-1 h1 {
+main .view-1 h1 {
+  padding: 0 2rem;
   font-size: 3.5rem;
   text-align: center;
   font-weight: 100;
+  line-height: 1.2;
 }
-.view-1 p {
+main .view-1 p {
+  padding: 0.5rem 1rem;
   text-align: center;
   font-weight: 100;
   line-height: 1.6rem;
-  margin: 0.9 rem 0rem;
   font-size: 1.2rem;
-  opacity: 0.6;
+  opacity: 0.8;
 }
-.view-1 p br {
+main .view-1 p br {
   display: none;
 }
-.view-1 .swapdown {
+main .view-1 .swapdown {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding-top: 2rem;
 }
-.view-1 .swapdown i {
+main .view-1 .swapdown i {
   padding: 0.6rem;
   border-radius: 1.2rem;
   opacity: 0.7;
   border: 1px solid rgba(128, 128, 128, 0.455);
   background-color: rgba(128, 128, 128, 0.175);
 }
-.view-1 .swapdown p {
+main .view-1 .swapdown p {
   font-size: 1rem;
 }
-
-.view-2 {
+main .view-2 {
+  padding: 2rem 0;
   width: 100%;
-  padding: 1rem 0rem;
   display: flex;
   justify-content: center;
 }
-.view-2 .marquee {
+main .view-2 .marquee {
   display: flex;
   width: 90%;
   overflow: hidden;
@@ -79,115 +79,109 @@ main {
   -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
           mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
 }
-.view-2 .marquee .text {
+main .view-2 .marquee .text {
   display: flex;
   gap: 3rem;
   padding: 0 1.5rem;
   animation: marquee 10s linear infinite both;
 }
-.view-2 .marquee .text p {
+main .view-2 .marquee .text p {
   font-size: 2rem;
   font-weight: 300;
 }
-
-.view-3 {
+main .view-3 {
+  padding: 2rem 0;
   width: 100%;
-  margin: 2rem 0rem;
-  display: grid;
-  grid-template-rows: 250px 250px 250px;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
 }
-.view-3 .box {
+main .view-3 .box {
   border: 1px solid rgba(128, 128, 128, 0.455);
   background-color: rgba(128, 128, 128, 0.06);
   padding: 1.5rem;
 }
-.view-3 .box h5 {
-  padding: 0.1rem 0;
+main .view-3 .box h5 {
   font-weight: 300;
   opacity: 0.5;
 }
-.view-3 .box h3 {
+main .view-3 .box h3 {
   font-weight: 100;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
-.view-3 .box p {
-  padding: 0.5rem;
-  font-size: 1.1rem;
+main .view-3 .box p {
+  padding-top: 0.4rem;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
   line-height: 1.6rem;
 }
-.view-3 .box .box-1 {
-  padding: 0.8rem 0rem;
+main .view-3 .box .box-1 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.view-3 .box .box-1 i {
+main .view-3 .box .box-1 i {
   padding: 0.6rem;
   border-radius: 1.2rem;
   opacity: 0.7;
   border: 1px solid rgba(128, 128, 128, 0.455);
   background-color: rgba(128, 128, 128, 0.175);
 }
-.view-3 .box .box-1 h4 {
+main .view-3 .box .box-1 h4 {
   font-weight: 400;
 }
-
-.hading {
+main .hading {
+  padding: 2rem 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hading h1 {
+main .hading h1 {
   font-size: 2rem;
   font-weight: 200;
 }
-.hading .box-1 {
+main .hading .box-1 {
   display: flex;
   flex-direction: row;
   padding: 1rem 0rem;
   gap: 0.6rem;
   align-items: center;
 }
-.hading .box-1 i {
+main .hading .box-1 i {
   padding: 0.6rem;
   border-radius: 1.2rem;
   opacity: 0.7;
   border: 1px solid rgba(128, 128, 128, 0.455);
   background-color: rgba(128, 128, 128, 0.175);
 }
-.hading .box-1 h4 {
+main .hading .box-1 h4 {
   font-weight: 200;
 }
-
-.view-4 {
+main .view-4 {
   width: 100%;
-  padding: 1rem 1.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 1rem;
 }
-.view-4 .box {
+main .view-4 .box-1 {
   width: 100%;
-  padding: 1rem 0;
 }
-.view-4 .box .img-box {
+main .view-4 .box-1 .img-box {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
 }
-.view-4 .box .img-box img {
+main .view-4 .box-1 .img-box img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border: 1px solid rgba(128, 128, 128, 0.455);
 }
-.view-4 .box .img-box .elam {
+main .view-4 .box-1 .img-box .elam {
   width: 90%;
   display: flex;
   align-items: center;
@@ -200,52 +194,823 @@ main {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
-.view-4 .box .img-box .elam h3 {
+main .view-4 .box-1 .img-box .elam h3 {
   font-size: 1.3rem;
   font-weight: 200;
 }
-.view-4 .box .img-box .elam h4 {
+main .view-4 .box-1 .img-box .elam h4 {
   font-size: 1rem;
   font-weight: 200;
 }
-
-.view-5 {
+main .view-4 .box-2 {
   width: 100%;
-  padding: 1rem 1.5rem;
+}
+main .view-4 .box-2 .img-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+main .view-4 .box-2 .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+}
+main .view-4 .box-2 .img-box .elam {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+main .view-4 .box-2 .img-box .elam h3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+main .view-4 .box-2 .img-box .elam h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+main .view-4 .box-3 {
+  width: 100%;
+}
+main .view-4 .box-3 .img-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+main .view-4 .box-3 .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+}
+main .view-4 .box-3 .img-box .elam {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+main .view-4 .box-3 .img-box .elam h3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+main .view-4 .box-3 .img-box .elam h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+main .view-4 .box-4 {
+  width: 100%;
+}
+main .view-4 .box-4 .img-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+main .view-4 .box-4 .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+}
+main .view-4 .box-4 .img-box .elam {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+main .view-4 .box-4 .img-box .elam h3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+main .view-4 .box-4 .img-box .elam h4 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+main .view-5 {
+  width: 100%;
+  padding: 2.5rem 0rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.view-5 h5 {
+main .view-5 h5 {
   font-size: 1rem;
   font-weight: 300;
   opacity: 0.9;
 }
-.view-5 .h1 {
+main .view-5 .h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.view-5 .h1 h1 {
+main .view-5 .h1 h1 {
   line-height: 2.8rem;
   font-size: 3.2rem;
   font-weight: 300;
   line-height: 4rem;
 }
-.view-5 .p {
+main .view-5 .p {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.view-5 .p p {
+main .view-5 .p p {
   font-size: 1.1rem;
   font-weight: 300;
   opacity: 0.9;
   line-height: 2rem;
+}
+main .view-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+main .view-6 .number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-6 .number i {
+  padding: 0.6rem;
+  border-radius: 1.2rem;
+  opacity: 0.7;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-6 .number .line-1 {
+  opacity: 0.5;
+  padding: 2rem 0;
+  height: 2%;
+  background-color: rgb(36, 36, 36);
+}
+main .view-6 .number .line-2 {
+  opacity: 0.5;
+  padding: 13rem 0;
+  height: 2%;
+  background-color: rgb(36, 36, 36);
+}
+main .view-6 .number .line-3 {
+  opacity: 0.5;
+  padding: 14rem 0;
+  height: 2%;
+  background-color: rgb(36, 36, 36);
+}
+main .view-6 .number .line-4 {
+  opacity: 0.5;
+  padding: 14rem 0;
+  height: 2%;
+  background-color: rgb(36, 36, 36);
+}
+main .view-6 .number .line-5 {
+  opacity: 0.5;
+  padding: 14rem 0;
+  height: 2%;
+  background-color: rgb(36, 36, 36);
+}
+main .view-6 .number p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 1.2rem;
+  opacity: 0.7;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-6 .boxs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 5.5rem;
+}
+main .view-6 .boxs .box-1 {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  opacity: 0.8;
+}
+main .view-6 .boxs .box-1 h5 {
+  width: 30%;
+  padding: 0.4rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+}
+main .view-6 .boxs .box-1 h6 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main .view-6 .boxs .box-1 h1 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+main .view-6 .boxs .box-1 p {
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .view-6 .boxs .box-1 ul {
+  line-height: 2.4;
+}
+main .view-6 .boxs .box-1 ul li {
+  font-size: 0.9rem;
+}
+main .view-6 .boxs .box-2 {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  opacity: 0.8;
+}
+main .view-6 .boxs .box-2 h5 {
+  width: 30%;
+  padding: 0.4rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+}
+main .view-6 .boxs .box-2 h6 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main .view-6 .boxs .box-2 h1 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+main .view-6 .boxs .box-2 p {
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .view-6 .boxs .box-2 ul {
+  line-height: 2.4;
+}
+main .view-6 .boxs .box-2 ul li {
+  font-size: 0.9rem;
+}
+main .view-6 .boxs .box-3 {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  opacity: 0.8;
+}
+main .view-6 .boxs .box-3 h5 {
+  width: 30%;
+  padding: 0.4rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+}
+main .view-6 .boxs .box-3 h6 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main .view-6 .boxs .box-3 h1 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+main .view-6 .boxs .box-3 p {
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .view-6 .boxs .box-3 ul {
+  line-height: 2.4;
+}
+main .view-6 .boxs .box-3 ul li {
+  font-size: 0.9rem;
+}
+main .view-6 .boxs .box-4 {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  opacity: 0.8;
+}
+main .view-6 .boxs .box-4 h5 {
+  width: 30%;
+  padding: 0.4rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+}
+main .view-6 .boxs .box-4 h6 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main .view-6 .boxs .box-4 h1 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+main .view-6 .boxs .box-4 p {
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .view-6 .boxs .box-4 ul {
+  line-height: 2.4;
+}
+main .view-6 .boxs .box-4 ul li {
+  font-size: 0.9rem;
+}
+main .view-6 .boxs .box-5 {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  opacity: 0.8;
+}
+main .view-6 .boxs .box-5 h5 {
+  width: 30%;
+  padding: 0.4rem;
+  border: 1px solid #343230;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+}
+main .view-6 .boxs .box-5 h6 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main .view-6 .boxs .box-5 h1 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+main .view-6 .boxs .box-5 p {
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .view-6 .boxs .box-5 ul {
+  line-height: 2.4;
+}
+main .view-6 .boxs .box-5 ul li {
+  font-size: 0.9rem;
+}
+main .view-7 {
+  width: 100%;
+  padding: 2.5rem 0rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .view-7 h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+main .view-7 .h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .view-7 .h1 h1 {
+  line-height: 2.8rem;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 4rem;
+}
+main .view-7 .p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .view-7 .p p {
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.9;
+  line-height: 2rem;
+}
+main .view-8 .boxs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-1 {
+  opacity: 0.9;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-1 .logo img {
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-1 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-1 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-1 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-1 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-1 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-1 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-1 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-1 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-8 .boxs .box-2 {
+  opacity: 0.9;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-2 .logo {
+  width: 100%;
+}
+main .view-8 .boxs .box-2 .logo img {
+  width: 100%;
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-2 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-2 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-2 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-2 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-2 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-2 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-2 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-2 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-8 .boxs .box-3 {
+  opacity: 0.9;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-3 .logo {
+  width: 100%;
+}
+main .view-8 .boxs .box-3 .logo img {
+  width: 100%;
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-3 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-3 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-3 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-3 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-3 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-3 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-3 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-3 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-8 .boxs .box-4 {
+  opacity: 0.9;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-4 .logo {
+  width: 100%;
+}
+main .view-8 .boxs .box-4 .logo img {
+  width: 100%;
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-4 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-4 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-4 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-4 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-4 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-4 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-4 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-4 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-8 .boxs .box-5 {
+  opacity: 0.9;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-5 .logo {
+  width: 100%;
+}
+main .view-8 .boxs .box-5 .logo img {
+  width: 100%;
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-5 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-5 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-5 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-5 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-5 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-5 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-5 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-5 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-8 .boxs .box-6 {
+  opacity: 0.9;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+}
+main .view-8 .boxs .box-6 .logo {
+  width: 100%;
+}
+main .view-8 .boxs .box-6 .logo img {
+  width: 100%;
+  aspect-ratio: 2/0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-6 h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+main .view-8 .boxs .box-6 p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-6 .botuom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .view-8 .boxs .box-6 .botuom .img {
+  width: 20%;
+}
+main .view-8 .boxs .box-6 .botuom .img img {
+  width: 100%;
+  border-radius: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-8 .boxs .box-6 .botuom .text {
+  width: 80%;
+}
+main .view-8 .boxs .box-6 .botuom .text h1 {
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-8 .boxs .box-6 .botuom .text p {
+  opacity: 0.5;
+  padding-bottom: 0.2rem;
+}
+main .view-9 {
+  padding: 2.5rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .view-9 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .view-9 .top h1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+main .view-9 .top h1 span {
+  display: block;
+}
+main .view-9 .top img {
+  padding: 1rem 0;
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-9 .top .pc {
+  display: none;
+}
+main .view-9 .botuom {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .view-9 .botuom .text h1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+main .view-9 .botuom .side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .view-9 .botuom .side p {
+  padding-top: 1rem;
+  opacity: 0.8;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+main .view-9 .botuom .side .logo {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+main .view-9 .botuom .side .logo img {
+  width: 10%;
+  padding: 0.3rem;
+  border-radius: 1.6rem;
+  opacity: 0.7;
+  border: 1px solid rgba(128, 128, 128, 0.455);
+  background-color: rgba(128, 128, 128, 0.175);
+  color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @keyframes marquee {
@@ -259,79 +1024,280 @@ main {
 @media (min-width: 1020px) {
   html {
     font-size: clamp(16px, 1vw, 20px);
-    padding: 0 7rem;
   }
-  .view-1 img {
-    width: 28%;
+  main {
+    width: 100%;
+    padding: 2rem 9rem;
   }
-  .view-1 h1 {
-    font-size: 8.5rem;
+  main .view-1 img {
+    width: 37%;
   }
-  .view-1 p {
+  main .view-1 h1 {
+    font-size: 8rem;
+    line-height: 1;
+  }
+  main .view-1 p {
+    padding: 2rem 0;
     font-size: 1.5rem;
   }
-  .view-1 p br {
+  main .view-1 p br {
     display: block;
   }
-  .view-2 {
+  main .view-2 {
     width: 100%;
+    padding: 2rem 0;
   }
-  .view-2 .marquee {
-    width: 50%;
+  main .view-2 .marquee {
+    width: 80%;
   }
-  .view-3 {
+  main .view-3 {
+    padding: 3rem 0;
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     gap: 1.8rem;
-    padding: 0 3rem;
   }
-  .view-3 .box {
+  main .view-3 .box {
     padding: 3rem;
   }
-  .view-3 .box h3 {
+  main .view-3 .box h3 {
     font-size: 1.4rem;
   }
-  .view-3 .box p {
+  main .view-3 .box p {
     font-size: 1rem;
   }
-  .view-3 .box .box-1 i {
-    padding: 0.4rem;
-  }
-  .hading {
+  main .hading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 2rem 2rem;
   }
-  .hading h1 {
+  main .hading h1 {
     font-size: 3rem;
   }
-  .hading .box-1 {
+  main .hading .box-1 {
     padding: 1rem;
   }
-  .hading .box-1 h4 {
+  main .hading .box-1 h4 {
     font-size: 0.9rem;
   }
-  .view-4 {
+  main .view-4 {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: "a b" "c d";
   }
-  .view-4 .box {
-    width: 50%;
+  main .view-4 .box-1 {
+    grid-area: "a";
   }
-  .view-4 .box .img-box {
-    padding: 0 1rem;
+  main .view-4 .box-2 {
+    grid-area: "b";
   }
-  .view-5 h5 {
+  main .view-4 .box-3 {
+    grid-area: "c";
+  }
+  main .view-4 .box-4 {
+    grid-area: "d";
+  }
+  main .view-5 h5 {
     font-size: 0.8rem;
   }
-  .view-5 .h1 h1 {
+  main .view-5 .h1 h1 {
     font-size: 6rem;
     line-height: 6.2rem;
   }
-}/*# sourceMappingURL=style.css.map */
+  main .view-6 .boxs {
+    display: grid;
+    grid-template-areas: ".a" "b." ".c" "d." ".e";
+  }
+  main .view-6 .boxs .box-1 {
+    grid-area: a;
+  }
+  main .view-6 .boxs .box-2 {
+    grid-area: b;
+  }
+  main .view-6 .boxs .box-3 {
+    grid-area: c;
+  }
+  main .view-6 .boxs .box-4 {
+    grid-area: d;
+  }
+  main .view-6 .boxs .box-5 {
+    grid-area: e;
+  }
+  main .view-7 h5 {
+    font-size: 0.8rem;
+  }
+  main .view-7 .h1 h1 {
+    font-size: 6rem;
+    line-height: 6.2rem;
+  }
+  main .view-7 .p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .view-8 {
+    padding: 0 7rem;
+  }
+  main .view-8 .boxs {
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: "a b" "c d" "e f";
+  }
+  main .view-8 .boxs .box-1 {
+    padding: 3rem;
+    grid-area: "a";
+  }
+  main .view-8 .boxs .box-1 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-1 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-1 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-1 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-1 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-8 .boxs .box-2 {
+    padding: 3rem;
+    grid-area: "b";
+  }
+  main .view-8 .boxs .box-2 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-2 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-2 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-2 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-2 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-8 .boxs .box-3 {
+    padding: 3rem;
+    grid-area: "c";
+  }
+  main .view-8 .boxs .box-3 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-3 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-3 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-3 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-3 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-8 .boxs .box-4 {
+    padding: 3rem;
+    grid-area: "d";
+  }
+  main .view-8 .boxs .box-4 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-4 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-4 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-4 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-4 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-8 .boxs .box-5 {
+    padding: 3rem;
+    grid-area: "e";
+  }
+  main .view-8 .boxs .box-5 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-5 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-5 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-5 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-5 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-8 .boxs .box-6 {
+    padding: 3rem;
+    grid-area: "f";
+  }
+  main .view-8 .boxs .box-6 .logo img {
+    aspect-ratio: 2/0.2;
+  }
+  main .view-8 .boxs .box-6 p {
+    line-height: 1.8;
+  }
+  main .view-8 .boxs .box-6 .botuom .img {
+    width: 10%;
+  }
+  main .view-8 .boxs .box-6 .botuom .img img {
+    width: 100%;
+  }
+  main .view-8 .boxs .box-6 .botuom .text h1 {
+    padding-bottom: 0;
+  }
+  main .view-9 .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  main .view-9 .top h1 {
+    font-size: 5.2rem;
+  }
+  main .view-9 .top h1 span {
+    display: none;
+  }
+  main .view-9 .top img {
+    width: 30%;
+  }
+  main .view-9 .top .pc {
+    display: block;
+  }
+  main .view-9 .botuom {
+    padding: 3rem 0;
+    flex-direction: row;
+    align-items: normal;
+  }
+  main .view-9 .botuom .text {
+    width: 50%;
+  }
+  main .view-9 .botuom .text h1 {
+    font-size: 3rem;
+  }
+  main .view-9 .botuom .side {
+    width: 50%;
+  }
+  main .view-9 .botuom .side p {
+    line-height: 2;
+  }
+  main .view-9 .botuom .side .logo {
+    justify-content: flex-start;
+  }
+  main .view-9 .botuom .side .logo img {
+    width: 6%;
+  }
+}
