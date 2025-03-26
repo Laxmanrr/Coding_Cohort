@@ -4,7 +4,7 @@
 
 I’m thrilled to share my latest project: a blog I created as part of my coding journey. It covers everything from personal reflections to fun lists like my favorite foods and the beauty of nature. The blog is a great example of how I’m building my skills in web development.
 
-Check it out here: [My Blog](https://laxmanrr.github.io/Coding_Cohort/3-2/)
+Check it out here: [My Blog](https://laxmanrr.github.io/Coding_Cohort/3-2_Blog_web_site/)
 
 
 **3-3**
@@ -13,7 +13,7 @@ Check it out here: [My Blog](https://laxmanrr.github.io/Coding_Cohort/3-2/)
 
 I’m excited to share a **simple yet effective Contact Us form** that I created as part of my ongoing web development journey! This form allows users to easily submit their **Name**, **Email**, **Phone Number**, and **Message** – perfect for websites looking to engage with their audience.
 
-🔗Check it out here: [My Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/3-3/)
+🔗Check it out here: [My Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/3-3_Form/)
 
 **4**
 
@@ -28,7 +28,7 @@ I’ve just updated my coding portfolio with a sleek, and I wanted to share it w
 
 Check it out and see how CSS can elevate the user experience! 
 
-🔗Check it out here: [View My Blog](https://laxmanrr.github.io/Coding_Cohort/4/)
+🔗Check it out here: [View My Blog](https://laxmanrr.github.io/Coding_Cohort/4_Blog_web_site_CSS/)
 
 **5**
 
@@ -41,7 +41,7 @@ I’ve just implemented a ** two-column layout** for my latest website project, 
 - Built with **Flexbox** for a modern, responsive design.
 - Includes sections for **About**, **Products**, **Contact**, and more.
 
-🔗 Check it out here: [website](https://laxmanrr.github.io/Coding_Cohort/5/)
+🔗 Check it out here: [website](https://laxmanrr.github.io/Coding_Cohort/5_Flex/)
 
 **6**
 
@@ -54,7 +54,7 @@ I’ve just launched a **Contact Us form** as part of my web development project
 - Clean, user-friendly design to ensure a smooth experience.
 - Ideal for adding to any website that needs a contact form!
 
-🔗Check it out here: [Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/6/)
+🔗Check it out here: [Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/6_Form_in_CSS/)
 
 **7**
 
@@ -67,7 +67,7 @@ I’m excited to share my latest project: a **Product Showcase** website where u
 - Clean and simple layout to make browsing easy.
 - Perfect for e-commerce websites or personal product displays.
 
-🔗Check it out here: [Product Showcase Website](https://laxmanrr.github.io/Coding_Cohort/7/)
+🔗Check it out here: [Product Showcase Website](https://laxmanrr.github.io/Coding_Cohort/7_Product_Showcase_Website/)
 
 **9**
 
@@ -80,6 +80,6 @@ I’m thrilled to share my newly launched website showcasing my **Web Design & D
 - **Web Development**: Custom solutions focused on delivering seamless user experiences.
 - **SEO**: Strategies to boost your website’s performance and visibility on search engines.
 
-🔗Check it out here: [Web Design & Development services](https://laxmanrr.github.io/Coding_Cohort/9/)
+🔗Check it out here: [Web Design & Development services](https://laxmanrr.github.io/Coding_Cohort/9_Web_Developer/)
 
 
