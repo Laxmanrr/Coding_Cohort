@@ -1,4 +1,4 @@
-**3-2**
+**3-2_Blog_web_site**
 
 🚀 **Exciting Update: My New Blog Post is Live!** 🚀
 
@@ -7,7 +7,7 @@ I’m thrilled to share my latest project: a blog I created as part of my coding
 Check it out here: [My Blog](https://laxmanrr.github.io/Coding_Cohort/3-2_Blog_web_site/)
 
 
-**3-3**
+**3-3_Form**
 
 🚀 **New Project Update: My Contact Us Form is Live!** 🚀
 
@@ -15,7 +15,7 @@ I’m excited to share a **simple yet effective Contact Us form** that I created
 
 🔗Check it out here: [My Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/3-3_Form/)
 
-**4**
+**4_Blog_web_site_CSS**
 
 🚀 **Excited to Share My Latest Web Development Work!** 🚀
 
@@ -30,7 +30,7 @@ Check it out and see how CSS can elevate the user experience!
 
 🔗Check it out here: [View My Blog](https://laxmanrr.github.io/Coding_Cohort/4_Blog_web_site_CSS/)
 
-**5**
+**5_Flex**
 
 🚀 **Exciting Project Update: New Two-Column Layout with Flexbox!** 🚀
 
@@ -43,7 +43,7 @@ I’ve just implemented a ** two-column layout** for my latest website project, 
 
 🔗 Check it out here: [website](https://laxmanrr.github.io/Coding_Cohort/5_Flex/)
 
-**6**
+**6_Form_in_CSS**
 
 🚀 **New Web Project: Contact Us Form Live!** 🚀
 
@@ -56,7 +56,7 @@ I’ve just launched a **Contact Us form** as part of my web development project
 
 🔗Check it out here: [Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/6_Form_in_CSS/)
 
-**7**
+**7_Product_Showcase_Website**
 
 🚀 **New Project: Product Showcase Website** 🚀
 
@@ -69,7 +69,7 @@ I’m excited to share my latest project: a **Product Showcase** website where u
 
 🔗Check it out here: [Product Showcase Website](https://laxmanrr.github.io/Coding_Cohort/7_Product_Showcase_Website/)
 
-**9**
+**9_Web_Developer**
 
 🚀 **New Website: Web Design & Development Services** 🚀
 
