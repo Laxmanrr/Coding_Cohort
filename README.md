@@ -1,106 +1,240 @@
-# 📌 **Coding Cohort Projects Overview**
+<div align="center">
 
-Welcome to my **Coding Cohort** repository! Below, I’m sharing my latest web development projects, showcasing everything from blog sites to contact forms, and product showcases. Take a look at how I’ve been building my skills across a variety of web technologies.
+# 🚀 Coding Cohort — Web Development Projects
 
----
+**A complete collection of web development projects built during my coding journey.**  
+From HTML basics to full JavaScript DOM projects — all live and deployed!
 
-### **1. Blog Website (3-2_Blog_Web_Site)**
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-📝 **Exciting Update: My New Blog Post is Live!**  
-I’m thrilled to share my latest project: a blog I created as part of my coding journey. It covers personal reflections, fun lists like favorite foods, and the beauty of nature. It’s a great example of how I’m building my skills in web development.
+[![Live Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-2ea44f?style=for-the-badge)](https://laxmanrr.github.io/Coding_Cohort/)
 
-🔗 [Check it out here: My Blog](https://laxmanrr.github.io/Coding_Cohort/3-2_Blog_web_site/)
-
----
-
-### **2. Contact Us Form (3-3_Form)**
-
-📩 **New Project Update: My Contact Us Form is Live!**  
-I’m excited to share a simple yet effective Contact Us form that I created as part of my ongoing web development journey. This form allows users to easily submit their Name, Email, Phone Number, and Message—perfect for websites looking to engage with their audience.
-
-🔗 [Check it out here: My Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/3-3_Form/)
+</div>
 
 ---
 
-### **3. Styled Blog Website with CSS (4_Blog_Web_Site_CSS)**
-
-🎨 **Excited to Share My Latest Web Development Work!**  
-I’ve just updated my coding portfolio with a sleek and stylish blog built using clean CSS styling, demonstrating my growing skills in web development.
-
-🌟 **What’s Inside:**
-- Beautifully styled blog posts
-- A user-friendly design with smooth navigation
-- Embedded images and a simple, effective layout
-
-🔗 [Check it out here: View My Blog](https://laxmanrr.github.io/Coding_Cohort/4_Blog_web_site_CSS/)
+## 📁 Projects
 
 ---
 
-### **4. Two-Column Layout with Flexbox (5_Flex)**
+### 1. 🧠 Productivity Dashboard
+> **DOM Project** — All-in-one productivity web app
 
-📐 **Exciting Project Update: New Two-Column Layout with Flexbox!**  
-I’ve implemented a two-column layout for my website, showcasing products and information about delicious coffee. Designed with Flexbox, the layout provides a flexible and clean structure for all screen sizes.
+A feature-rich productivity dashboard built with pure HTML, CSS & JavaScript.  
+Includes live weather, real-time clock, To-Do list, Daily Planner, Pomodoro Timer, Motivation quotes, and Daily Goals.
 
-🌟 **Key Features:**
-- Two-column layout: Organizes content side-by-side, making the site more user-friendly
-- Built with Flexbox: Responsive design for modern screens
-- Sections for About, Products, Contact, and more
+**✨ Features:**
+- ⏰ Live clock & date (real-time)
+- 🌤️ Live weather for Bhopal via Open-Meteo API (no key needed)
+- ✅ To-Do List with Important flag & localStorage
+- 📅 Hour-by-hour Daily Planner (auto-save)
+- 💬 Random motivational quotes (DummyJSON API + fallback)
+- ⏱️ Pomodoro Timer (25 min work / 5 min break)
+- 🎯 Daily Goals with checkbox & delete
+- 🎨 3 Theme switcher (Teal / Dark / Rose)
 
-🔗 [Check it out here: Website](https://laxmanrr.github.io/Coding_Cohort/5_Flex/)
+**🛠 Tech:** HTML · CSS · Vanilla JS · Open-Meteo API · DummyJSON API
 
----
-
-### **5. CSS Contact Us Form (6_Form_in_CSS)**
-
-📩 **New Web Project: Contact Us Form Live!**  
-I’ve launched a simple yet powerful "Contact Us" form using CSS, allowing users to submit their Name, Email, and Message. It’s easy to integrate into any website that needs a contact form.
-
-🌟 **Features:**
-- Easy-to-use form fields for collecting visitor information
-- Clean, user-friendly design ensuring a smooth experience
-
-🔗 [Check it out here: Contact Us Form](https://laxmanrr.github.io/Coding_Cohort/6_Form_in_CSS/)
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/Dom_Project_Theme_Changer/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/Dom_Project_Theme_Changer)
 
 ---
 
-### **6. Product Showcase Website (7_Product_Showcase_Website)**
+### 2. 🌐 FYLLA Website
+> **Responsive Modern Website**
 
-🛍️ **New Project: Product Showcase Website**  
-I’m excited to share my latest project: a Product Showcase website where users can browse a variety of products, from gadgets to apparel. The website highlights items with detailed descriptions and pricing.
+A dynamic and interactive platform built with modern web technologies, featuring responsive design for all screen sizes and engaging interactive elements.
 
-🌟 **Key Features:**
-- Product Listings: Displaying items with descriptions and prices
-- Clean, simple layout to make browsing easy
-- Perfect for e-commerce sites or personal product showcases
+**✨ Features:**
+- 📱 Fully responsive — desktop & mobile
+- 🎨 Modern UI/UX design
+- ⚡ Interactive elements for better usability
 
-🔗 [Check it out here: Product Showcase Website](https://laxmanrr.github.io/Coding_Cohort/7_Product_Showcase_Website/)
+**🛠 Tech:** HTML · CSS · JavaScript
 
----
-
-### **7. Web Design & Development Services (9_Web_Developer)**
-
-💻 **New Website: Web Design & Development Services**  
-I’m thrilled to share my newly launched website showcasing my web design and development services. Whether you need visually stunning designs, custom development solutions, or SEO strategies, this site offers everything to help your business thrive online.
-
-🌟 **Key Features:**
-- **Web Design:** Engaging, user-friendly designs tailored to your brand
-- **Web Development:** Custom solutions for seamless user experiences
-- **SEO:** Strategies to boost your website’s performance and visibility
-
-🔗 [Check it out here: Web Design & Development Services](https://laxmanrr.github.io/Coding_Cohort/9_Web_Developer/)
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/FYLLA/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/FYLLA)
 
 ---
 
-### **8. FYLLA Website**
+### 3. 💻 Web Design & Development Services (9\_Web\_Developer)
+> **Portfolio / Services Website**
 
-🚀 **New Project: FYLLA Website Live!**  
-I’m excited to share my latest web development project: **FYLLA**! This website serves as a dynamic and interactive platform showcasing a variety of features designed with modern web technologies. It's an example of how I can create clean, functional, and visually appealing websites.
+A professional website showcasing web design and development services including custom design, development, and SEO strategies.
 
-🌟 **What’s Inside:**
-- **Responsive Design:** Works seamlessly on both desktop and mobile devices
-- **Modern Web Technologies:** Built with the latest tools for optimal user experience
-- **Interactive Features:** Engaging elements to enhance usability
+**✨ Features:**
+- 🎨 Web Design services section
+- ⚙️ Web Development services section
+- 📈 SEO strategies section
+- Clean, professional layout
 
-🔗 [Check it out here: FYLLA Website](https://laxmanrr.github.io/Coding_Cohort/FYLLA/)
+**🛠 Tech:** HTML · CSS · JavaScript
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/9_Web_Developer/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/9_Web_Developer)
 
 ---
+
+### 4. 🛒 Product Showcase Website (7\_Product\_Showcase\_Website)
+> **E-Commerce Style Product Listing**
+
+A product showcase website where users can browse a variety of products — from gadgets to apparel — with detailed descriptions and pricing.
+
+**✨ Features:**
+- 🛍️ Product listings with descriptions & prices
+- 🖼️ Clean, easy-to-browse layout
+- 📦 Great for e-commerce or personal portfolios
+
+**🛠 Tech:** HTML · CSS
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/7_Product_Showcase_Website/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/7_Product_Showcase_Website)
+
+---
+
+### 5. 📐 Two-Column Flexbox Layout (5\_Flex)
+> **Flexbox Practice — Coffee Product Site**
+
+A two-column layout website about coffee products, built using CSS Flexbox for a clean and responsive design.
+
+**✨ Features:**
+- 📐 Two-column Flexbox layout
+- ☕ Sections: About, Products, Contact
+- 📱 Responsive on all screen sizes
+
+**🛠 Tech:** HTML · CSS · Flexbox
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/5_Flex/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/5_Flex)
+
+---
+
+### 6. 🎨 Styled Blog Website with CSS (4\_Blog\_Web\_Site\_CSS)
+> **Blog with Full CSS Styling**
+
+A sleek and stylish blog website demonstrating clean CSS styling, typography, and a smooth user-friendly design.
+
+**✨ Features:**
+- ✍️ Styled blog posts
+- 🖼️ Embedded images with clean layout
+- 🧭 Smooth navigation
+
+**🛠 Tech:** HTML · CSS
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/4_Blog_web_site_CSS/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/4_Blog_web_site_CSS)
+
+---
+
+### 7. 📩 CSS Contact Us Form (6\_Form\_in\_CSS)
+> **Styled Contact Form**
+
+A clean, styled "Contact Us" form with CSS that collects Name, Email, and Message from visitors.
+
+**✨ Features:**
+- 📝 Name, Email & Message fields
+- 🎨 Clean CSS styling
+- ✅ User-friendly experience
+
+**🛠 Tech:** HTML · CSS
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/6_Form_in_CSS/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/6_Form_in_CSS)
+
+---
+
+### 8. 📝 Blog Website (3-2\_Blog\_Web\_Site)
+> **My First Blog — HTML Only**
+
+My first blog website built during the early days of my coding journey. Covers personal reflections, lists, and nature — a milestone project!
+
+**✨ Features:**
+- 🗒️ Blog posts with personal content
+- 📋 Favorite foods and nature reflections
+- 🏗️ Built entirely with HTML
+
+**🛠 Tech:** HTML
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/3-2_Blog_web_site/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/3-2_Blog_web_site)
+
+---
+
+### 9. 📩 Contact Us Form (3-3\_Form)
+> **My First HTML Form**
+
+A simple and effective Contact Us form — one of my early projects where I learned how HTML forms work.
+
+**✨ Features:**
+- 👤 Name, Email, Phone & Message fields
+- 📬 Great starting point for any website
+
+**🛠 Tech:** HTML
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/3-3_Form/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/3-3_Form)
+
+---
+
+### 10. 🌬️ Tailwind CSS Practice (10\_Tailwindcss)
+> **Tailwind CSS Learning Project**
+
+Hands-on practice with Tailwind CSS utility classes — building layouts and components with the popular CSS framework.
+
+**🛠 Tech:** HTML · Tailwind CSS
+
+📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/10_Tailwindcss)
+
+---
+
+### 11. 📖 Responsive Project (Responsive-Project-3)
+> **Responsive Design Practice**
+
+A responsive website project focused on making layouts work beautifully across all screen sizes.
+
+**🛠 Tech:** HTML · CSS
+
+🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/Responsive-Project-3/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/Responsive-Project-3)
+
+---
+
+## 📊 Repository Stats
+
+| Language | Usage |
+|----------|-------|
+| CSS / SCSS | 64.5% |
+| HTML | 27.0% |
+| JavaScript | 8.5% |
+
+---
+
+## 🗺️ My Learning Journey
+
+```
+HTML Basics ──► CSS Styling ──► Flexbox ──► Responsive Design
+     │
+     ▼
+Forms & Layouts ──► CSS Frameworks (Tailwind) ──► JavaScript DOM
+     │
+     ▼
+API Integration ──► localStorage ──► Full Projects 🎯
+```
+
+---
+
+## 👤 Author
+
+**Laxman Rathod (Laxmanrr)**
+
+> *"Every expert was once a beginner. Keep building, keep learning!"*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Laxmanrr-181717?style=for-the-badge&logo=github)](https://github.com/Laxmanrr)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-2ea44f?style=for-the-badge&logo=github-pages)](https://laxmanrr.github.io/Coding_Cohort/)
+
+---
+
+## 📄 License
+
+This repository is open source under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+⭐ **If you find these projects helpful, please give this repo a star!** ⭐
+
+</div>
