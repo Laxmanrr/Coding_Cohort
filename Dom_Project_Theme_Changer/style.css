@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 :root {
   --pri: #f3f4f4;
   --sec: #5f9598;
@@ -28,7 +35,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: aeonik;
   color: var(--pri);
 }
@@ -56,10 +64,16 @@ nav {
   background-color: var(--sec);
 }
 .nav-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: var(--tri2);
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 15px 30px;
   border-radius: 10px;
   height: 100%;
@@ -73,6 +87,8 @@ nav {
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
 .theme i {
@@ -98,9 +114,15 @@ nav {
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1440166830278-3eb28bc7f9bc?q=80&w=1170&auto=format&fit=crophttps://images.unsplash.com/photo-1440166830278-3eb28bc7f9bc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 40px;
   border-radius: 20px;
   padding: 35px 50px;
@@ -138,9 +160,14 @@ header .header2 h3 {
 }
 
 .allElems .allFeatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 40px;
 }
 
@@ -150,12 +177,17 @@ header .header2 h3 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
   cursor: pointer;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 #main .allElems .elem:hover {
-  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+          transform: translateY(-6px);
 }
 #main .allElems .elem:active {
   scale: 0.97;
@@ -170,7 +202,8 @@ header .header2 h3 {
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* ── FULL PAGES ── */
@@ -213,9 +246,15 @@ header .header2 h3 {
 #main .todo-list-fullpage .todo-container {
   height: calc(100% - 120px);
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 30px;
 }
 #main .todo-list-fullpage .todo-container .addTask {
@@ -224,9 +263,16 @@ header .header2 h3 {
   border-radius: 20px;
 }
 #main .todo-list-fullpage .todo-container .addTask form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 30px;
 }
 #main .todo-list-fullpage .todo-container .addTask form #task-input {
@@ -254,8 +300,12 @@ header .header2 h3 {
   font-family: sans-serif;
 }
 #main .todo-list-fullpage .todo-container .addTask form .mark-imp {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
   padding: 10px 0;
   margin-bottom: 20px;
@@ -278,6 +328,8 @@ header .header2 h3 {
   border: none;
   font-weight: 600;
   cursor: pointer;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
 #main .todo-list-fullpage .todo-container .addTask form button:active {
@@ -289,17 +341,30 @@ header .header2 h3 {
   height: 100%;
   background-color: var(--tri2);
   border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 30px;
   overflow: auto;
   gap: 12px;
 }
 #main .todo-list-fullpage .todo-container .allTask .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   background-color: var(--tri1);
   padding: 18px 25px;
@@ -307,8 +372,12 @@ header .header2 h3 {
 }
 #main .todo-list-fullpage .todo-container .allTask .task h5 {
   font-size: 1.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
 }
 #main .todo-list-fullpage .todo-container .allTask .task h5 span {
@@ -344,16 +413,27 @@ header .header2 h3 {
   width: 100%;
   border-radius: 10px;
   padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 12px;
   overflow: auto;
 }
 #main .daily-planner-fullpage .day-planner .day-planner-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   width: 49%;
 }
@@ -381,9 +461,15 @@ header .header2 h3 {
 #main .Motivation-fullpage .motivation-fullPage-container {
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #main .Motivation-fullpage .motivation-container {
   width: 80%;
@@ -398,7 +484,8 @@ header .header2 h3 {
   background-color: var(--tri1);
   border-radius: 50px;
   scale: 1.15;
-  filter: blur(100px);
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
   z-index: 8;
   top: 0;
   left: 0;
@@ -412,9 +499,15 @@ header .header2 h3 {
   padding: 40px;
 }
 .motivation-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-bottom: 30px;
 }
 .motivation-1 h2 {
@@ -422,6 +515,8 @@ header .header2 h3 {
   padding: 20px 30px;
   border-radius: 20px;
   font-size: 36px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 500;
 }
@@ -436,9 +531,15 @@ header .header2 h3 {
   line-height: 1.3;
 }
 .motivation-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-bottom: 30px;
 }
 .motivation-3 h2 {
@@ -446,6 +547,8 @@ header .header2 h3 {
   padding: 20px 30px;
   border-radius: 20px;
   font-size: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 500;
 }
@@ -457,9 +560,15 @@ header .header2 h3 {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 8px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 #refresh-quote:hover {
@@ -478,7 +587,9 @@ header .header2 h3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
 }
 .pomo-timer h1 {
@@ -494,19 +605,25 @@ header .header2 h3 {
   margin: 10px;
   border-radius: 5px;
   border: none;
-  box-shadow: 7px 7px 0px var(--black);
+  -webkit-box-shadow: 7px 7px 0px var(--black);
+          box-shadow: 7px 7px 0px var(--black);
+  -webkit-transition: all ease 0.1s;
+  -o-transition: all ease 0.1s;
   transition: all ease 0.1s;
   font-weight: 700;
   cursor: pointer;
 }
 .pomo-timer button:active {
-  box-shadow: 0px 0px 0px var(--black);
+  -webkit-box-shadow: 0px 0px 0px var(--black);
+          box-shadow: 0px 0px 0px var(--black);
 }
 .Pomodoro-timer-fullpage .session {
   position: absolute;
   top: 160px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-color: var(--green);
   padding: 12px 28px;
   font-size: 26px;
@@ -525,12 +642,16 @@ header .header2 h3 {
   max-width: 100%;
 }
 .goals-input-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 15px;
   margin-bottom: 30px;
 }
 .goals-input-row input {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 16px 22px;
   background-color: var(--tri2);
   border: none;
@@ -548,14 +669,20 @@ header .header2 h3 {
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .goals-input-row button:active {
   scale: 0.97;
 }
 .goal-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 16px;
   background-color: var(--tri2);
   padding: 18px 24px;
@@ -568,7 +695,9 @@ header .header2 h3 {
   cursor: pointer;
 }
 .goal-item span {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   font-size: 20px;
 }
 .goal-item span.done {
@@ -582,8 +711,293 @@ header .header2 h3 {
   border-radius: 6px;
   font-size: 14px;
   cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .goal-item .del-goal:active {
   scale: 0.96;
+}
+
+
+/* ╔══════════════════════════════════════════════════╗
+   ║           RESPONSIVE — LAPTOP (≤1024px)          ║
+   ╚══════════════════════════════════════════════════╝ */
+@media (max-width: 1024px) {
+  #main .allElems { padding: 25px; }
+ 
+  .allElems header { padding: 28px 36px; }
+  header .header1 h1 { font-size: 54px; }
+  header .header1 h2 { font-size: 26px; }
+  header .header1 h4 { font-size: 26px; }
+  header .header2 h2 { font-size: 52px; }
+  header .header2 h4 { font-size: 28px; margin-bottom: 18px; }
+  header .header2 h3 { font-size: 15px; }
+ 
+  #main .allElems .elem { width: 280px; height: 340px; }
+ 
+  #main .todo-list-fullpage h2 { font-size: 44px; }
+  .pomo-timer h1 { font-size: 120px; }
+  .motivation-2 h1 { font-size: 40px; }
+}
+ 
+ 
+/* ╔══════════════════════════════════════════════════╗
+   ║           RESPONSIVE — TABLET (≤768px)           ║
+   ╚══════════════════════════════════════════════════╝ */
+@media (max-width: 768px) {
+ 
+  /* NAV */
+  nav { height: 65px; padding: 8px 16px; }
+  .nav-in { padding: 10px 16px; border-radius: 8px; }
+  .nav-in h2 { font-size: 18px; }
+  .theme { padding: 8px; }
+  .theme i { font-size: 18px; }
+  #main { padding-top: 65px; }
+ 
+  /* HOME */
+  #main .allElems {
+    height: calc(100% - 65px);
+    padding: 16px;
+  }
+ 
+  /* HEADER — stack vertically on tablet */
+  .allElems header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    padding: 24px 24px;
+    margin-bottom: 24px;
+    border-radius: 14px;
+  }
+  header .header1 h1 { font-size: 36px; margin-bottom: 10px; }
+  header .header1 h2 { font-size: 18px; margin-bottom: 4px; }
+  header .header1 h4 { font-size: 18px; }
+  header .header2 { width: 100%; }
+  header .header2 h2 { font-size: 40px; }
+  header .header2 h4 { font-size: 20px; margin-bottom: 10px; }
+  header .header2 h3 { font-size: 14px; line-height: 1.8; }
+ 
+  /* FEATURE CARDS — 2 per row */
+  .allElems .allFeatures { gap: 16px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  #main .allElems .elem {
+    width: calc(50% - 8px);
+    height: 220px;
+    border-radius: 12px;
+  }
+  #main .allElems .elem h2 { font-size: 16px; }
+ 
+  /* FULL PAGES */
+  #main .fullElem {
+    height: calc(100% - 65px);
+    top: 65px;
+    padding: 20px 16px;
+  }
+  #main .fullElem .back {
+    top: 16px;
+    right: 16px;
+    padding: 10px 13px;
+    font-size: 18px;
+  }
+ 
+  /* TODO */
+  #main .todo-list-fullpage h2 { font-size: 28px; margin-bottom: 16px; padding-right: 50px; }
+  #main .todo-list-fullpage .todo-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    gap: 16px;
+  }
+  #main .todo-list-fullpage .todo-container .addTask { width: 100%; }
+  #main .todo-list-fullpage .todo-container .addTask form { padding: 18px; }
+  #main .todo-list-fullpage .todo-container .addTask form #task-input { font-size: 16px; padding: 12px 14px; }
+  #main .todo-list-fullpage .todo-container .addTask form textarea { font-size: 14px; padding: 10px 14px; }
+  #main .todo-list-fullpage .todo-container .addTask form button { font-size: 17px; padding: 12px; }
+  #main .todo-list-fullpage .todo-container .allTask {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding: 18px;
+  }
+  #main .todo-list-fullpage .todo-container .allTask .task { padding: 12px 16px; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 10px; }
+  #main .todo-list-fullpage .todo-container .allTask .task h5 { font-size: 1.1rem; }
+  #main .todo-list-fullpage .todo-container .allTask .task button { font-size: 13px; padding: 8px 14px; }
+ 
+  /* PLANNER */
+  #main .daily-planner-fullpage h2 { font-size: 28px; margin-bottom: 16px; padding-right: 50px; }
+  #main .daily-planner-fullpage .day-planner {
+    height: auto;
+    padding: 16px;
+    gap: 10px;
+  }
+  #main .daily-planner-fullpage .day-planner .day-planner-time { width: 100%; }
+  #main .daily-planner-fullpage .day-planner .day-planner-time input { font-size: 16px; }
+ 
+  /* MOTIVATION */
+  #main .Motivation-fullpage .motivation-container { width: 100%; }
+  #main .Motivation-fullpage .motivation-container .motivation-wrapper { padding: 22px; border-radius: 20px; }
+  .motivation-1 h2 { font-size: 20px; padding: 12px 18px; }
+  .motivation-2 h1 { font-size: 26px; }
+  .motivation-3 h2 { font-size: 18px; padding: 12px 18px; }
+  #refresh-quote { font-size: 15px; padding: 11px 22px; }
+ 
+  /* POMODORO */
+  .Pomodoro-timer-fullpage h2 { font-size: 28px; }
+  .Pomodoro-timer-fullpage .session { font-size: 16px; padding: 8px 18px; top: 110px; }
+  .pomo-timer h1 { font-size: 80px; margin-bottom: 20px; }
+  .pomo-timer button { font-size: 18px; padding: 12px 22px; margin: 6px; -webkit-box-shadow: 4px 4px 0 var(--black); box-shadow: 4px 4px 0 var(--black); }
+ 
+  /* GOALS */
+  .daily-goals-fullpage h1 { font-size: 32px; margin-bottom: 20px; padding-right: 50px; }
+  .goals-wrapper { width: 100%; }
+  .goals-input-row { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 10px; }
+  .goals-input-row input { font-size: 16px; padding: 13px 16px; }
+  .goals-input-row button { font-size: 15px; padding: 13px 20px; width: 100%; }
+  .goal-item { padding: 14px 16px; gap: 12px; }
+  .goal-item span { font-size: 16px; }
+}
+ 
+ 
+/* ╔══════════════════════════════════════════════════╗
+   ║          RESPONSIVE — MOBILE (≤480px)            ║
+   ╚══════════════════════════════════════════════════╝ */
+@media (max-width: 480px) {
+ 
+  /* NAV */
+  nav { height: 58px; padding: 6px 12px; }
+  .nav-in { padding: 8px 14px; }
+  .nav-in h2 { font-size: 15px; }
+  #main { padding-top: 58px; }
+ 
+  /* HOME */
+  #main .allElems {
+    height: calc(100% - 58px);
+    padding: 12px;
+  }
+ 
+  /* HEADER */
+  .allElems header {
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    gap: 16px;
+  }
+  header .header1 h1 { font-size: 28px; margin-bottom: 8px; }
+  header .header1 h2 { font-size: 14px; }
+  header .header1 h4 { font-size: 14px; }
+  header .header2 h2 { font-size: 32px; }
+  header .header2 h4 { font-size: 16px; margin-bottom: 8px; }
+  header .header2 h3 { font-size: 12px; line-height: 1.7; }
+ 
+  /* FEATURE CARDS — 2 per row, smaller */
+  .allElems .allFeatures { gap: 10px; }
+  #main .allElems .elem {
+    width: calc(50% - 5px);
+    height: 180px;
+    border-radius: 10px;
+  }
+  #main .allElems .elem h2 { font-size: 13px; bottom: 8px; right: 8px; }
+ 
+  /* FULL PAGES */
+  #main .fullElem {
+    height: calc(100% - 58px);
+    top: 58px;
+    padding: 16px 12px;
+  }
+  #main .fullElem .back {
+    top: 12px;
+    right: 12px;
+    padding: 9px 11px;
+    font-size: 16px;
+  }
+ 
+  /* TODO */
+  #main .todo-list-fullpage h2 { font-size: 22px; margin-bottom: 14px; padding-right: 46px; }
+  #main .todo-list-fullpage .todo-container .addTask form { padding: 14px; }
+  #main .todo-list-fullpage .todo-container .addTask form #task-input { font-size: 15px; padding: 10px 12px; margin-bottom: 12px; }
+  #main .todo-list-fullpage .todo-container .addTask form textarea { font-size: 13px; padding: 10px 12px; margin-bottom: 12px; }
+  #main .todo-list-fullpage .todo-container .addTask form .mark-imp { gap: 12px; margin-bottom: 12px; }
+  #main .todo-list-fullpage .todo-container .addTask form .mark-imp label { font-size: 14px; }
+  #main .todo-list-fullpage .todo-container .addTask form button { font-size: 15px; padding: 11px; }
+  #main .todo-list-fullpage .todo-container .allTask { padding: 14px; gap: 8px; }
+  #main .todo-list-fullpage .todo-container .allTask .task { padding: 10px 12px; }
+  #main .todo-list-fullpage .todo-container .allTask .task h5 { font-size: 0.95rem; }
+  #main .todo-list-fullpage .todo-container .allTask .task button { font-size: 12px; padding: 7px 10px; }
+ 
+  /* PLANNER */
+  #main .daily-planner-fullpage h2 { font-size: 22px; margin-bottom: 14px; padding-right: 46px; }
+  #main .daily-planner-fullpage .day-planner { padding: 12px; gap: 8px; }
+  #main .daily-planner-fullpage .day-planner .day-planner-time input { font-size: 14px; padding: 24px 12px 8px; }
+  #main .daily-planner-fullpage .day-planner .day-planner-time p { font-size: 11px; }
+ 
+  /* MOTIVATION */
+  #main .Motivation-fullpage .motivation-fullPage-container { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-top: 20px; }
+  #main .Motivation-fullpage .motivation-container { width: 100%; }
+  #main .Motivation-fullpage .motivation-container::after { display: none; }
+  #main .Motivation-fullpage .motivation-container .motivation-wrapper { padding: 18px; border-radius: 16px; }
+  .motivation-1 { margin-bottom: 18px; }
+  .motivation-1 h2 { font-size: 16px; padding: 10px 14px; border-radius: 12px; }
+  .motivation-2 { margin-bottom: 18px; padding: 0; }
+  .motivation-2 h1 { font-size: 20px; line-height: 1.4; }
+  .motivation-3 { margin-bottom: 18px; }
+  .motivation-3 h2 { font-size: 14px; padding: 10px 14px; border-radius: 12px; }
+  #refresh-quote { font-size: 14px; padding: 10px 18px; width: 100%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+ 
+  /* POMODORO */
+  .Pomodoro-timer-fullpage h2 { font-size: 22px; }
+  .Pomodoro-timer-fullpage .session { font-size: 13px; padding: 7px 14px; top: 80px; }
+  .Pomodoro-timer-fullpage .pomo-timer { top: 52%; }
+  .pomo-timer h1 { font-size: 64px; margin-bottom: 16px; }
+  .pomo-timer button { font-size: 15px; padding: 10px 16px; margin: 5px; -webkit-box-shadow: 3px 3px 0 var(--black); box-shadow: 3px 3px 0 var(--black); }
+ 
+  /* GOALS */
+  .daily-goals-fullpage h1 { font-size: 26px; margin-bottom: 16px; padding-right: 46px; }
+  .goal-item { padding: 12px 14px; gap: 10px; border-radius: 8px; }
+  .goal-item span { font-size: 15px; }
+  .goal-item .del-goal { padding: 6px 12px; font-size: 12px; }
+}
+ 
+ 
+/* ╔══════════════════════════════════════════════════╗
+   ║        RESPONSIVE — MOBILE S (≤375px)            ║
+   ╚══════════════════════════════════════════════════╝ */
+@media (max-width: 375px) {
+ 
+  .nav-in h2 { font-size: 13px; }
+ 
+  header .header1 h1 { font-size: 22px; }
+  header .header2 h2 { font-size: 26px; }
+ 
+  #main .allElems .elem { height: 155px; }
+  #main .allElems .elem h2 { font-size: 11px; }
+ 
+  #main .todo-list-fullpage h2 { font-size: 19px; }
+  .pomo-timer h1 { font-size: 54px; }
+  .pomo-timer button { font-size: 13px; padding: 9px 12px; }
+  .motivation-2 h1 { font-size: 17px; }
+  .daily-goals-fullpage h1 { font-size: 22px; }
+}
+ 
+ 
+/* ╔══════════════════════════════════════════════════╗
+   ║     LANDSCAPE MOBILE (height ≤ 500px)            ║
+   ╚══════════════════════════════════════════════════╝ */
+@media (max-height: 500px) and (orientation: landscape) {
+  .allElems header { padding: 14px 20px; }
+  header .header1 h1 { font-size: 22px; margin-bottom: 4px; }
+  header .header2 h2 { font-size: 26px; }
+  header .header2 h4 { margin-bottom: 4px; font-size: 14px; }
+ 
+  .Pomodoro-timer-fullpage .pomo-timer { top: 55%; }
+  .pomo-timer h1 { font-size: 56px; margin-bottom: 10px; }
+  .Pomodoro-timer-fullpage .session { top: 70px; font-size: 13px; }
+ 
+  #main .Motivation-fullpage .motivation-fullPage-container { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; overflow: auto; }
 }
