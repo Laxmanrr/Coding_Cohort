@@ -23,20 +23,70 @@ From HTML basics to full JavaScript DOM projects — all live and deployed!
 ### 1. 🧠 Productivity Dashboard
 > **DOM Project** — All-in-one productivity web app
 
-A feature-rich productivity dashboard built with pure HTML, CSS & JavaScript.  
-Includes live weather, real-time clock, To-Do list, Daily Planner, Pomodoro Timer, Motivation quotes, and Daily Goals.
+A feature-rich, fully responsive productivity dashboard built with **pure HTML, CSS & JavaScript** — no frameworks, no libraries. Everything from live weather to a Pomodoro timer, all in one clean interface with 3 switchable themes.
 
 **✨ Features:**
-- ⏰ Live clock & date (real-time)
-- 🌤️ Live weather for Bhopal via Open-Meteo API (no key needed)
-- ✅ To-Do List with Important flag & localStorage
-- 📅 Hour-by-hour Daily Planner (auto-save)
-- 💬 Random motivational quotes (DummyJSON API + fallback)
-- ⏱️ Pomodoro Timer (25 min work / 5 min break)
-- 🎯 Daily Goals with checkbox & delete
-- 🎨 3 Theme switcher (Teal / Dark / Rose)
 
-**🛠 Tech:** HTML · CSS · Vanilla JS · Open-Meteo API · DummyJSON API
+| Feature | Description |
+|---------|-------------|
+| ⏰ Live Clock & Date | Real-time updating clock with day, date, month, year and AM/PM |
+| 🌤️ Live Weather | Current temp, condition, humidity, wind & precipitation for Bhopal via Open-Meteo API |
+| ✅ To-Do List | Add tasks with details, mark as ⭐ Important, complete & remove — saved to localStorage |
+| 📅 Daily Planner | Hour-by-hour schedule from 6 AM–11 PM, auto-saves every keystroke |
+| 💬 Motivation Quotes | Random inspirational quotes on load + refresh button, with offline fallback |
+| ⏱️ Pomodoro Timer | 25-min work session → 5-min break, with Start / Pause / Reset controls |
+| 🎯 Daily Goals | Add goals, tick them off as done, delete — persisted in localStorage |
+| 🎨 Theme Switcher | 3 beautiful color themes — Teal (default), Dark Charcoal, Warm Rose |
+| 📱 Fully Responsive | Works on all devices — mobile (320px), tablet, laptop, desktop |
+
+**🐛 Bugs Fixed (from original code):**
+- `new date()` → `new Date()` (capital D was missing)
+- `date.getTarik()` → `date.getDate()` (method didn't exist)
+- `date.getyear()` → `date.getFullYear()` (method didn't exist)
+- AM/PM logic was inverted — `hours > 12` was wrongly showing "AM"
+- Time element was never updated — both lines were setting the date element
+- `fetchQuote()` was defined but **never called**
+- Weather API used `"${apikey}"` as a plain string, not a variable
+- `localStorage` key mismatch — saving as `"dayplanData"`, reading as `"dayPlanData"`
+- Feature pages not opening — CSS `z-index` and `display` conflict fixed
+- `fullElem` pages blocked by nav — fixed with correct `top: 80px` and `z-index: 100`
+
+**🌐 APIs Used:**
+
+| API | Purpose | Key Required |
+|-----|---------|-------------|
+| [Open-Meteo](https://open-meteo.com/) | Live weather for Bhopal | ❌ Free, no key |
+| [DummyJSON Quotes](https://dummyjson.com/quotes) | Random motivational quotes | ❌ Free, no key |
+
+**💾 localStorage Keys:**
+
+| Key | Data |
+|-----|------|
+| `currentTask` | To-Do tasks array |
+| `dayPlanData` | Daily planner hour entries |
+| `dailyGoals` | Goals with done/undone status |
+
+**📱 Responsive Breakpoints:**
+
+| Device | Breakpoint | Behavior |
+|--------|-----------|----------|
+| Desktop | > 1024px | Full layout, large fonts |
+| Laptop | ≤ 1024px | Slightly reduced sizing |
+| Tablet | ≤ 768px | Header stacks vertically, 2-col cards |
+| Mobile | ≤ 480px | Full single-column layout |
+| Mobile S | ≤ 375px | Minimum readable sizes |
+| Landscape | height ≤ 500px | Adjusted for horizontal phones |
+
+**🗂 File Structure:**
+```
+Dom_Project_Theme_Changer/
+├── index.html      → Full HTML structure, all 6 sections
+├── style.css       → All styles + complete responsive CSS
+├── script.js       → 9 JS modules, all bugs fixed
+└── fav/            → Favicon + custom Aeonik font files
+```
+
+**🛠 Tech Stack:** HTML5 · CSS3 (Custom Properties, Flexbox) · Vanilla JavaScript (DOM, Fetch API, localStorage, setInterval) · Remix Icons CDN
 
 🔗 [**Live Demo**](https://laxmanrr.github.io/Coding_Cohort/Dom_Project_Theme_Changer/) &nbsp;|&nbsp; 📂 [**Source Code**](https://github.com/Laxmanrr/Coding_Cohort/tree/main/Dom_Project_Theme_Changer)
 
